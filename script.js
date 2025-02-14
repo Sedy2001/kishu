@@ -33,7 +33,7 @@ function startGame() {
     imgTarget.onload = function() {
         targetWidth = imgTarget.width * scaleFactor;
         targetHeight = imgTarget.height * scaleFactor;
-        moveInterval = setInterval(moveTargetRandomly, 750); // Move every 500 milliseconds for faster movement
+        moveInterval = setInterval(moveTargetRandomly, 1000); // Move every 1000 milliseconds for faster movement
     };
 
     backgroundImage.onload = function() {
